@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+<link rel="stylesheet" type="text/css" href="mediaqueries.css"/>
+<link rel="stylesheet" type="text/css" href="animations.css"/>
+<script src="includes/jquery-min.js"></script>
+    <script src="includes/imagesloaded.pkgd.min.js"></script>
+    <script src="includes/progressCircleSVG.js"></script>
+    <script src="includes/jquery.smooth-scroll.min.js"></script>
+    <script src="includes/menuBarInteractivity.js"></script>
+    <script src="includes/sideScrollGallery.js"></script>
+    
+</head>
+
+<body>
+   <div class="progressShade">&nbsp;   <div id="cont" data-pct="100">
+<svg id="svg" width="200" height="200" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <circle r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+  <circle id="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+</svg>
+</div></div>
+	<div class='header'>
+			<img src="images/logo.png"/><h1>NSW Road Profiling</h2>
+            <nav>
+            	<li><a id="contentMainLnk" href="#contentMain"> Home</a> </li>
+                <li> <a id="contentAboutLnk" href="#contentAbout">About Us</a> </li>
+                <li> <a id="contentContactLnk" href="#contentContact">Contact Us</a> </li>
+            </nav>
+    </div>
+    
+<div id="contentMain" class="contentMain">
+    <div class="logoContainer"><img class="logoMain" src="images/logoMain.png"/><img class="showCaseImage" src="images/jobs.jpg"></div>
+        <div class="galleryContainer">
+       <div class="galleryNavButton Left">&nbsp;</div>
+        <div class="galleryNavButton Right">&nbsp;</div>
+        <ul class="imagesList">
+            <li class="imageWrapper">
+                <img src="images/01.jpg">
+                <div class="imageBanner">
+                    <img src="images/openButton.svg"/>
+                </div>
+            </li>
+            <li class="imageWrapper">
+                <img src="images/02.jpg">
+                <div class="imageBanner">
+                    <img src="images/openButton.svg"/>
+                </div>
+            </li>
+            <li class="imageWrapper">
+                <img src="images/03.jpg">
+                <div class="imageBanner">
+                    <img src="images/openButton.svg"/>
+                </div>
+            </li>
+            <li class="imageWrapper">
+                <img src="images/04.jpg">
+                <div class="imageBanner">
+                    <img src="images/openButton.svg"/>
+                </div>
+            </li>
+            <li class="imageWrapper">
+                <img src="images/05.jpg">
+                <div class="imageBanner">
+                    <img src="images/openButton.svg"/>
+                </div>
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div id="contentAbout" class="contentAbout">
+                <img class="sectionAboutHeader" src="images/SectionHeaderAbout.svg"/>
+        <p class="aboutText">NSW Road Profiling is an Australian
+family owned company. Our aim is to provide a quality profiling job, for your project.</p>
+        <p class="aboutText">Our Profilers are multipurpose, and can be used for road maintenance, contruction, bulk earthwork and 
+excavation.</p>
+        <p class="aboutText">We were established in 2012 by our two directors who have been in the industry since 1992 & 1985.</p>
+        <p class="aboutText">giving us a combined industry 
+experience of 51 years.</p>
+    </div>
+    <div id="contentContact" class="contentContact">
+        <div class="transparentContactSpace">&nbsp;</div>
+    <div class="contactFormContainer">
+        <form>
+          <input type="text" name="name" placeholder="Please enter your name"/> <input type="email" name="emailAddress" placeholder="Please Enter your Email Address"/> <textarea name="enquiry" placeholder="How can we help?"></textarea>
+            <input type="submit" />
+        </form>
+        
+        </div>
+    </div>
+</body>
+</html>

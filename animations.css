@@ -1,0 +1,48 @@
+@-webkit-keyframes header-drop {
+    from {top: -100%;}
+    to {top: 0%;}
+} 
+@-moz-keyframes header-drop {
+    from {top: -100%;}
+    to {top: 0%;}
+} 
+@-o-keyframes header-drop {
+    from {top: -100%;}
+    to {top: 0%;}
+} 
+
+@keyframes header-drop {
+    from {top: -100%;}
+    to {top: 0%;}
+} 
+@-webkit-keyframes header-up {
+    from{top: 0%;}
+    to{top:-20%;}
+} 
+@-moz-keyframes header-up {
+   from{top: 0%;}
+    to{top:-20%;}
+} 
+@-o-keyframes header-up {
+    from{top: 0%;}
+    to{top: -20%;}
+} 
+
+@keyframes header-up {
+    from{top: 0%;}
+    to {top: -20%;}
+} 
+.headerDrop{
+    -webkit-animation: header-drop 1s;
+    -moz-animation: header-drop 1s;
+    -o-animation: header-drop 1s;
+    animation: header-drop 1s;
+}
+.headerRetract{
+    transform: rotatex(-90deg);
+    transition: transform 1s;
+     -webkit-animation: header-up 1s;
+    -moz-animation: header-up 1s;
+    -o-animation: header-up 1s;
+    animation: header-up 1s;   
+}
