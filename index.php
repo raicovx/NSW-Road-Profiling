@@ -1,29 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
-</head>
+    <head>
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+			<link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    </head>
 
-<body>
-<div class="navbar-fixed">
-<nav>
-	<div class='nav-wrapper blue lighten-1'>
-    <a href="#" class="brand-logo center"><img src="images/logo.png"/></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            	<li><a id="contentMainLnk" href="#contentMain"> Home</a> </li>
-                <li> <a id="contentAboutLnk" href="#contentAbout">About Us</a> </li>
-                <li> <a id="contentContactLnk" href="#contentContact">Contact Us</a> </li>
-          </ul>
-				</div>
-</nav>
-    </div>
+    <body>
+			<?php include('navigation.php'); ?>
+			<?php include('slider.php');?>
 
-		<div class="row">
-<?php include('slider.php');?>
-    </div>
-		<script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/bin/materialize.js"></script>
-    <script src="js/main.js"></script>
-</body>
-</html>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+			<script type="text/javascript" src="js/main.js"></script>
+    </body>
+  </html>
