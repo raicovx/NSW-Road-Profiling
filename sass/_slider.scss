@@ -1,0 +1,37 @@
+img{
+    max-width:100%;
+}
+.fullScreen{
+    position:absolute;
+    z-index:100;
+    right: 5%;
+    top: 325px;
+    font-size: 35px;
+    color:#FFF;
+    transition: top 1s;
+}
+.slider{
+   padding-bottom: 20px;
+}
+.slider, .slider .slides img, .slides{
+    transition: height 1s;
+}
+.slider .indicators{
+    z-index:99;
+    transition: top 1s, bottom 1s;
+    bottom: 10px;
+}
+.slider .indicators .indicator-item.active{
+    background-color: blue;
+}
+
+.sliderLogo{
+      width: 200px !important;
+  height: 60px !important;
+  background-size: contain!important;
+
+  background-repeat: no-repeat;
+  background-position-y: 5px!important;
+  top: 15px;
+  position: relative;
+}
