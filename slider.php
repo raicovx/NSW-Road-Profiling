@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row no-pad-bot">
   <div class="col s12 m12 l12 center" style="padding:0;">
   <div id="slider" class="slider blue-grey darken-4">
       <a class="fullScreen btn-floating btn-large waves-effect waves-light blue" href="#"><i class="mdi-navigation-unfold-more"></i></a>

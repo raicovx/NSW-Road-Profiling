@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $('.parallax').parallax();
     var isFullScreen = false,
         fullScreenButtn = $('.fullScreen'),
         sliderCont = $('.slider'),
