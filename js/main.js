@@ -28,7 +28,7 @@ $(document).ready(function(){
             indic.css('top','');
           sliderCont.toggleClass('fullscreen');
         isFullScreen = true;
-        navBar.animate({top:"0"},1000).delay(1000).hide();
+        navBar.animate({top:"0"},1000).hide();
             $('html, body').css({
     'overflow': 'hidden',
     'height': '100%'
