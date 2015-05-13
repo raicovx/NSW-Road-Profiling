@@ -1,8 +1,11 @@
+row{
+  height:auto;
+}
 img{
     max-width:100%;
 }
 .row#one{
-  height:400px;
+
   img{
     min-height:400px;
   }
@@ -18,6 +21,7 @@ img{
 }
 .slider{
    padding-bottom: 20px;
+   min-height:400px;
 }
 .slider, .slider .slides img, .slides{
     transition: height 1s;
@@ -40,4 +44,8 @@ img{
   background-position-y: 5px!important;
   top: 15px;
   position: relative;
+}
+.no-pad-bot{
+  padding-bottom:0!important;
+  margin-bottom:0!important;
 }
