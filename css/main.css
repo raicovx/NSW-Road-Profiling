@@ -10297,6 +10297,13 @@ img {
   max-width: 100%;
 }
 
+.row#one {
+  height: 400px;
+}
+.row#one img {
+  min-height: 400px;
+}
+
 .fullScreen {
   position: absolute;
   z-index: 100;
@@ -10322,7 +10329,7 @@ img {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #2196f3;
+  background-color: #ee6e73;
 }
 
 .sliderLogo {
@@ -10333,11 +10340,6 @@ img {
   background-position-y: 5px !important;
   top: 15px;
   position: relative;
-}
-
-.no-pad-bot {
-  padding-bottom: 0 !important;
-  margin-bottom: 0 !important;
 }
 
 .row#two .card {
