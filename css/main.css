@@ -10799,6 +10799,18 @@ img {
   margin: 10px;
 }
 
+.footerCard {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.footerCard h5 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+.footerCard .businessHours {
+  margin-top: 0;
+}
+
 th {
   border-radius: 0;
 }
