@@ -1,5 +1,5 @@
  <div class="col s12 m12 l12 center" style="padding:0;">
- <div id="slider" class="slider grey darken-4">
+ <div id="slider" class="slider grey darken-4 scrollspy">
      <a class="fullScreen btn-floating btn-large waves-effect waves-light blue" href="#"><i class="mdi-navigation-unfold-more"></i></a>
     <ul class="slides">
      <li>

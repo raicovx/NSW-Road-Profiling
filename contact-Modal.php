@@ -27,9 +27,9 @@
 </div>
 
 </div>
-<div class="modal-footer">
-<input type="submit" value="Send" class="modal-action modal-close waves-effect waves-red btn-flat"/>
-<a href="#!" class=" modal-action modal-close waves-effect waves-red btn-flat">Cancel</a>
+<div class="modal-footer white-text">
+<input type="submit" id="submit" value="Send" class="blue modal-action modal-close waves-effect waves-light btn-flat white-text"/>
+<a href="#!" class="blue modal-action modal-close waves-effect waves-light btn-flat white-text">Cancel</a>
 </div>
 </form>
 </div>

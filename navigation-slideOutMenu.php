@@ -1,5 +1,5 @@
   <ul id="slide-out" class="side-nav">
-    <li><a href="#home">Home</a></li>
+    <li><a href="#slider">Home</a></li>
     <li><a href="#aboutUs">About Us</a></li>
     <li><a href="#contactUs">Contact Us</a></li>
   </ul>

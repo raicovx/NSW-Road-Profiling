@@ -1,4 +1,4 @@
-<div id="two" class="parallax-container no-pad-bot">
+<div id="contactUs" class="parallax-container no-pad-bot scrollspy">
   <div class="section ">
     <div class="container">
       <br><br>

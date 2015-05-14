@@ -10812,6 +10812,29 @@ img {
   margin-top: 0;
 }
 
+.input-field input[type=text]:focus, label.active {
+  color: #2196f3 !important;
+}
+
+.input-field .prefix.active {
+  color: #2196f3;
+}
+
+input#submit {
+  background: none;
+  border: none;
+  font-size: 1.1em;
+  font-weight: normal;
+  font-style: normal;
+  padding: 6px;
+  line-height: 25px;
+}
+
+.modal-footer i {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
 th {
   border-radius: 0;
 }
