@@ -1,22 +1,32 @@
-<!DOCTYPE html>
 <html>
-    <head>
-      <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-			<link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, target-densitydpi=device-dpi">
+    <?php include('headHTML.php'); ?>
 
-    <body>
-			<?php include('navigation.php');?>
-      <div id="one" class="row no-pad-bot">
-			 <?php include('slider.php');?>
+</head>
+<body class="grey lighten-2">
+    <div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper blue">
+        <a href="#!" class="brand-logo"><img src="Images/logo.png"></a>
+
+
+             <?php include('navigation-main.php');
+            include('navigation-slideOutMenu.php');?>
+
+
      </div>
-       <?php include('parallaxOne.php');
-        include('rowThree.php'); ?>
+    </nav>
+    </div>
 
-
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-			<script type="text/javascript" src="js/main.js"></script>
-    </body>
-  </html>
+    <div class="row no-pad-bot">
+              <?php include('content-slider.php'); ?>
+    </div>
+    <?php
+    include('content-aboutUs-section.php');
+    include('parallaxOne.php');
+    ?>
+    <script src="JS/materialize.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>

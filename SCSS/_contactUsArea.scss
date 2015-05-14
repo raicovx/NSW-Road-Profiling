@@ -1,0 +1,14 @@
+.Info{
+	height:225px;
+    a{
+        font-weight: 500;
+    }
+}
+.redBG:hover{
+       color:#546e7a!important;
+        transition: color 0.2s;
+}
+.blueBG:hover{
+       color:lighten(#d32f2f, 90%)!important;
+        transition: color 0.2s;
+}

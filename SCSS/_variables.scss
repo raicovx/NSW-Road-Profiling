@@ -1,0 +1,13 @@
+$primary-color: #2196F3;
+$primary-color-darken-1: darken($primary-color, 5%);
+ $secondary-color:#FFF;
+ $contrasting-color:#263238 !important;
+ $link-color: color($primary-color, "darken-1") !default;
+/*----- Drop Downs ------*/
+$dropdown-content-background:#263238;
+$active-dropdown-content-background:#37474f;
+$dropdown-font-size:1rem;
+$dropdown-content-padding: 1rem 0.8rem;
+
+/*------Welcome Area ----*/
+$welcome-card-height:420px;

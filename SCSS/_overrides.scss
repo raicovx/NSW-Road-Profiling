@@ -1,0 +1,171 @@
+th{
+  border-radius:0;   
+}
+.tabs{
+    background-color:$primary-color; 
+    height:55px;
+}
+
+.tabs .tab{
+    a{color:$secondary-color;}
+    a:hover{
+     color:#FFF!important;
+        height:54px;
+      }
+}
+
+.tabs .indicator{
+    background-color:$secondary-color;
+    height:4px!important;
+ }
+
+/*Media Queries*/
+@media only screen and (min-width: 0) and (max-width:380px){
+     .container{
+        width:95%;   
+    }
+   /* .row .col{
+       padding: 0 0;   
+    }*/
+    table{
+        font-size:0.6rem;   
+    }
+     tr:hover{
+            font-size:0.7rem;
+            font-weight:400;
+             height:1.1rem;
+             transition: font-size 0.5s ease, font-weight 0.6s ease, background-color 0.25s ease !important;
+            
+         }
+      /*---------------------slider----------------------------*/   
+    .slides li .caption h5{
+        font-size:1.1rem;   
+    }
+/*---------------------welcome----------------------------*/
+    .logoCard{
+        padding: 1rem 1rem!important;
+    }    
+    .welcomeText{
+        padding:15px;   
+    }
+/*---------------------contact----------------------------*/
+    .Info p{
+        font-size:1rem;
+    } 
+    .Info a{
+        font-size: 1.2rem; 
+        font-weight: 500;
+    }   
+/*---------------------About Us----------------------------*/  
+     .businessCard{
+        height:370px;
+    }   
+ /*---------------------Internet & Hosting----------------------------*/  
+        .tabs{
+       width:160%!important;
+       
+        
+    }
+    .tabScalingHelper{
+     overflow-x: scroll;
+     overflow-y: hidden;    
+    }
+    ::-webkit-scrollbar { 
+    display: none; 
+    }
+    .mobileScaledTabs li{
+     width:25%!important;  
+    padding:0 0.3rem!important;
+    } 
+/*---------------------support----------------------------*/
+    .collapsible-header{
+      height: 4rem;
+    line-height: 1.5rem;
+    padding: 0.5rem 1rem;   
+    }
+/*---------------------About Us----------------------------*/    
+    .businessCard{
+        height:370px;
+    }   
+        .card .card-action{
+        margin-top:290px;   
+    }
+}
+ /*---------------------Members----------------------------*/
+ .checkUsage{
+    height:400px;
+        padding:15px;
+    }
+@media only screen and (min-width: 381px) and (max-width:662px){
+    .container{
+        width:95%;   
+    }
+    
+     table{
+        font-size:0.7rem;         
+    }
+     tr:hover{
+            font-size:0.8rem;
+            font-weight:400;
+             height:1.2rem;
+             transition: font-size 0.5s ease, font-weight 0.6s ease, background-color 0.25s ease !important;
+            
+         }
+    /*---------------------slider----------------------------*/   
+    .slides li .caption h5{
+        font-size:1.3rem;   
+    }
+    /*---------------------welcome----------------------------*/
+      .logoCard{
+        padding: 1rem 1rem!important;
+    }
+    /*---------------------Internet & Hosting----------------------------*/  
+    .tabs{
+       width:160%!important;
+       
+        
+    }
+    .tabScalingHelper{
+     overflow-x: scroll;
+     overflow-y: hidden;    
+    }
+    ::-webkit-scrollbar { 
+    display: none; 
+    }
+    .mobileScaledTabs li{
+     width:25%!important;  
+    padding:0 0.5!important;
+    }   
+    /*---------------------About Us----------------------------*/  
+    .businessCard{
+        height:350px;
+    }   
+      .card .card-action{
+        margin-top:260px;   
+    }
+    /*---------------------contact----------------------------*/
+    .Info p{
+        font-size:1rem;
+    }   
+    /*---------------------support----------------------------*/
+    .collapsible-header{
+      height: 4rem;
+    line-height: 1.5rem;
+    padding: 0.5rem 1rem;   
+    }
+     /*---------------------Members----------------------------*/
+    .checkUsage{
+    height:500px;   
+    }   
+}
+@media only screen and (min-width: 644px){
+    .card .card-action{
+           width:50%;
+    }
+    /*---------------------welcome----------------------------*/
+     /*---------------------Members----------------------------*/
+    .checkUsage{
+    height:400px;
+        padding:15px;
+    }   
+}
