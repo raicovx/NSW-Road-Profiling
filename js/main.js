@@ -7,6 +7,7 @@ $(document).ready(function(){
         indic.css('bottom', '');
      $(".button-collapse").sideNav();
      $(".parallax").parallax();
+     $('.modal-trigger').leanModal();
     $('ul.tabs').tabs();
      $('.slider').slider({full_width: true});
 

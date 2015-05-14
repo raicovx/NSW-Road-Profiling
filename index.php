@@ -26,6 +26,7 @@
     include('content-aboutUs-section.php');
     include('parallaxOne.php');
     include('content-footer.php');
+    include('contact-Modal.php');
     ?>
     <script src="JS/materialize.min.js"></script>
     <script src="JS/main.js"></script>
